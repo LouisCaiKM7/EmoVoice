@@ -4,10 +4,11 @@ numpy==1.19.5
 pandas==1.3.3
 matplotlib==3.4.3
 librosa==0.8.1
-tensorflow==2.6.0
-tensorflow-lite==2.6.0
 scikit-learn==0.24.2
 soundfile==0.10.3.post1
 tqdm==4.62.3
 requests==2.26.0
 pydub==0.25.1
+joblib==1.1.0
+scipy==1.7.3  # Specify an older version compatible with 32-bit Python
+werkzeug==2.2.3

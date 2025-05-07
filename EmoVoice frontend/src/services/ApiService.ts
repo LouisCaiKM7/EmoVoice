@@ -8,7 +8,7 @@ class ApiService {
   constructor() {
     // In a real app, this would be set in environment variables
     // For development, we'll use a default local URL
-    this.baseUrl = Constants.manifest?.extra?.apiUrl || 'http://localhost:5000/api';
+    this.baseUrl = Constants.manifest?.extra?.apiUrl || 'http://192.168.2.136:5000/api';
   }
   
   // Helper method for making API requests
